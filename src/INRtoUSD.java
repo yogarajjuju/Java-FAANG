@@ -1,9 +1,10 @@
 import java.util.*;
-public class IRNtoUSD {
+public class INRtoUSD {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        double IRN = in.nextDouble();
+        double INR = in.nextDouble();
         double conversionrate = 75;
-        double USD = IRN
+        double USD = INR / conversionrate;
+        System.out.println("The USD is : " + USD);
     }
 }
