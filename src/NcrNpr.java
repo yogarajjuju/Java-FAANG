@@ -24,6 +24,6 @@ public class NcrNpr {
         System.out.println("Enter the value of R");
         int r = in.nextInt();
         System.out.println("NCR (combination) = " + nCr(n,r));
-        System.out.println("NPR (combination) = " + nPr(n,r));
+        System.out.println("NPR (permutation) = " + nPr(n,r));
     }
 }
